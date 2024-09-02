@@ -28,7 +28,7 @@ a, i, input, img, h1, button, figure{
   border-radius: 0px 0px 30px 30px;
 }
 ::selection{
-  color: #dda15e;
+  color: #f4acb7;
 }
 
   .banner{
@@ -271,6 +271,19 @@ a, i, input, img, h1, button, figure{
   }
   .navigation{
     width: 200px;
+  }
+
+  .bg{
+    height: 95dvh;
+  }
+  .bg .box{
+    min-width: 350px;
+  }
+  .bg .box h1{
+    font-size: 3.5rem;
+  }
+  .bg .box h2{
+    font-size: 1.8rem;
   }
   }
   @media(max-width: 300px){
