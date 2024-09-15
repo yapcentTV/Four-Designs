@@ -12,9 +12,7 @@ function checkScreenSize() {
   const navigation = document.querySelector('.navigation');
   if (window.innerWidth > 1000) { // Adjust the width as needed
       navigation.style.display = 'none';
-  } else {
-      navigation.style.display = 'flex';
-  }
+  } 
 }
 
 window.addEventListener('resize', checkScreenSize);
